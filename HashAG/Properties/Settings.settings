@@ -10,5 +10,27 @@
 &lt;/SerializableConnectionString&gt;</DesignTimeValue>
       <Value Profile="(Default)">Data Source=10.125.50.191;Initial Catalog=hashcj3022501;User ID=aluno;TrustServerCertificate=True</Value>
     </Setting>
+    <Setting Name="porta" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">587</Value>
+    </Setting>
+    <Setting Name="senhaSMTP" Type="System.String" Scope="User">
+      <Value Profile="(Default)">EF797C8118F02DFB649607DD5D3F8C7623048C9C063D532CC95C5ED7A89A64F</Value>
+    </Setting>
+    <Setting Name="LoginsConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;ConnectionString&gt;Data Source=10.125.50.191;Initial Catalog=hashcj3022501;User ID=aluno;Password=aluno&lt;/ConnectionString&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=10.125.50.191;Initial Catalog=hashcj3022501;User ID=aluno;Password=aluno</Value>
+    </Setting>
+    <Setting Name="enderecoSMTP" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">macoratti.smtp.com</Value>
+    </Setting>
+    <Setting Name="portaSMTP" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">587</Value>
+    </Setting>
+    <Setting Name="emailSMTP" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">macoratti@yahoo.com</Value>
+    </Setting>
   </Settings>
 </SettingsFile>
